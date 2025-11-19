@@ -1,6 +1,4 @@
-# *Moe Counter!*
-
-多种风格可选的萌萌计数器
+# *Better Moe Counter!*
 
 <p align="center">
   <a href="https://count.getloli.com" target="_blank">
@@ -21,7 +19,7 @@
 <details>
 <summary><h2>More theme</h2></summary>
 
-### *[Contribute themes is welcome!](https://github.com/journey-ad/Moe-Counter/issues/new?assignees=&labels=theme&projects=&template=contribute-theme.yml&title=%5BTheme%5D%3A+)*
+### *[Contribute themes is welcome!](https://github.com/mikndotdev/BetterMoeCounter/issues/new?assignees=&labels=theme&projects=&template=contribute-theme.yml&title=%5BTheme%5D%3A+)*
 
 ##### 3d-num
 
@@ -238,22 +236,22 @@
 </details>
 
 ## Demo
-[https://count.getloli.com](https://count.getloli.com)
+[https://moecounter.mikn.dev](https://count.getloli.com)
 
 ## How to use
 
-For information on counter usage and configuration, refer to the [demo website](https://count.getloli.com).
+For information on counter usage and configuration, refer to the [demo website](https://moecounter.mikn.dev).
 
 ## Usage
 
 ### Deploying
 
 ```shell
-$ git clone https://github.com/journey-ad/Moe-Counter.git
-$ cd Moe-Counter
-$ pnpm install
+$ git clone https://github.com/mikndotdev/BetterMoeCounter.git
+$ cd BetterMoeCounter
+$ bun i
 
-$ pnpm start
+$ bun start
 ```
 
 ### Configuration
@@ -262,30 +260,24 @@ Set `.env` file to specify the environment variables. *[.env.example](./.env.exa
 
 ```dosini
 # Specify your website URL
-# APP_SITE=https://count.getloli.com
+# APP_SITE=https://count.example.com
 
 # Application port
 APP_PORT=3000
 
-# Database type: either 'sqlite' or 'mongodb'
-DB_TYPE=sqlite
-
-# If using MongoDB, provide the connection string
-# DB_URL=mongodb://127.0.0.1:27017
+# Redis connection URL
+REDIS_URL=redis://127.0.0.1:6379
 
 # Database write interval in seconds (0 for real-time)
 DB_INTERVAL=60
 
 # Log level: either 'debug' | 'info' | 'warn' | 'error' | 'none'
-LOG_LEVEL=debug
-
-# Google Analytics `G-Tag` ID
-# GA_ID=G-XXXX
+LOG_LEVEL=info
 ```
 
 ## Credits
 
-* [Render](https://render.com/)
+* [Original Moe Counter](https://github/com/journey-ad/Moe-counter)
 * [A-SOUL_Official](https://space.bilibili.com/703007996)
 * [moebooru](https://github.com/moebooru/moebooru)
 * gelbooru.com NSFW
@@ -297,11 +289,3 @@ LOG_LEVEL=debug
 [MIT License](./LICENSE), excluding all themes
 
 ---
-
-<a href="https://star-history.com/?repos=journey-ad/Moe-Counter&type=Date#journey-ad/Moe-Counter&Date">
- <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=journey-ad/Moe-Counter&type=Date&theme=dark" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=journey-ad/Moe-Counter&type=Date" />
-   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=journey-ad/Moe-Counter&type=Date" />
- </picture>
-</a>

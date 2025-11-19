@@ -1,16 +1,32 @@
-FROM node:18-alpine
-
-RUN corepack enable && corepack prepare pnpm@9.15.4 --activate
-
-COPY . /app
+FROM oven/bun:1 AS base
 WORKDIR /app
 
-COPY package.json ./
-COPY pnpm-lock.yaml ./
+FROM base AS deps
+COPY package.json bun.lock ./
+RUN bun install --frozen-lockfile
 
-RUN --mount=type=cache,id=pnpm,target=/root/.local/share/pnpm/store pnpm fetch --frozen-lockfile
-RUN --mount=type=cache,id=pnpm,target=/root/.local/share/pnpm/store pnpm install --frozen-lockfile
+FROM base AS builder
+COPY --from=deps /app/node_modules ./node_modules
+COPY . .
+RUN bun run build
+
+FROM base AS runner
+WORKDIR /app
+
+ENV NODE_ENV=production
+ENV APP_PORT=3000
+
+COPY --from=builder /app/dist ./dist
+COPY --from=builder /app/assets ./assets
+COPY --from=deps /app/node_modules ./node_modules
+COPY package.json ./
+
+RUN addgroup --system --gid 1001 nodejs && \
+    adduser --system --uid 1001 bunuser && \
+    chown -R bunuser:nodejs /app
+
+USER bunuser
 
 EXPOSE 3000
 
-CMD ["pnpm", "start"]
+CMD ["bun", "run", "start"]

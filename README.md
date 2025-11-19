@@ -4,9 +4,13 @@
 
 # *Better Moe Counter!*
 
+- The Moe Counter you love, but modernized and better!
+- Fully rewritten in TypeScript with Elysia+Bun
+- Database switched to Redis for better performance
+
 <p align="center">
-  <a href="https://count.getloli.com" target="_blank">
-    <img alt="Moe Counter!" src="https://count.getloli.com/@Moe-counter.github?name=Moe-counter.github&theme=booru-lewd&padding=7&offset=0&align=top&scale=1&pixelated=1&darkmode=auto">
+  <a href="https://moecounter.mikn.dev" target="_blank">
+    <img alt="Moe Counter!" src="https://moecounter.mikn.dev/@Moe-counter.github?name=Moe-counter.github&theme=booru-lewd&padding=7&offset=0&align=top&scale=1&pixelated=1&darkmode=auto">
   </a>
 </p>
 
@@ -17,220 +21,220 @@
 
 ##### 3d-num
 
-![3d-num](https://count.getloli.com/@demo?theme=3d-num)
+![3d-num](https://moecounter.mikn.dev/@demo?theme=3d-num)
 
 ##### ai-1
 
-![ai-1](https://count.getloli.com/@demo?theme=ai-1)
+![ai-1](https://moecounter.mikn.dev/@demo?theme=ai-1)
 
 ##### asoul
 
-![asoul](https://count.getloli.com/@demo?theme=asoul)
+![asoul](https://moecounter.mikn.dev/@demo?theme=asoul)
 
 ##### booru-ffsr
 
-![booru-ffsr](https://count.getloli.com/@demo?theme=booru-ffsr)
+![booru-ffsr](https://moecounter.mikn.dev/@demo?theme=booru-ffsr)
 
 ##### booru-helltaker
 
-![booru-helltaker](https://count.getloli.com/@demo?theme=booru-helltaker)
+![booru-helltaker](https://moecounter.mikn.dev/@demo?theme=booru-helltaker)
 
 ##### booru-huggboo
 
-![booru-huggboo](https://count.getloli.com/@demo?theme=booru-huggboo)
+![booru-huggboo](https://moecounter.mikn.dev/@demo?theme=booru-huggboo)
 
 ##### booru-jaypee
 
-![booru-jaypee](https://count.getloli.com/@demo?theme=booru-jaypee)
+![booru-jaypee](https://moecounter.mikn.dev/@demo?theme=booru-jaypee)
 
 ##### booru-koe
 
-![booru-koe](https://count.getloli.com/@demo?theme=booru-koe)
+![booru-koe](https://moecounter.mikn.dev/@demo?theme=booru-koe)
 
 ##### booru-lewd
 
-![booru-lewd](https://count.getloli.com/@demo?theme=booru-lewd)
+![booru-lewd](https://moecounter.mikn.dev/@demo?theme=booru-lewd)
 
 ##### booru-lisu
 
-![booru-lisu](https://count.getloli.com/@demo?theme=booru-lisu)
+![booru-lisu](https://moecounter.mikn.dev/@demo?theme=booru-lisu)
 
 ##### booru-mjg
 
-![booru-mjg](https://count.getloli.com/@demo?theme=booru-mjg)
+![booru-mjg](https://moecounter.mikn.dev/@demo?theme=booru-mjg)
 
 ##### booru-mof
 
-![booru-mof](https://count.getloli.com/@demo?theme=booru-mof)
+![booru-mof](https://moecounter.mikn.dev/@demo?theme=booru-mof)
 
 ##### booru-nandroid
 
-![booru-nandroid](https://count.getloli.com/@demo?theme=booru-nandroid)
+![booru-nandroid](https://moecounter.mikn.dev/@demo?theme=booru-nandroid)
 
 ##### booru-qualityhentais
 
-![booru-qualityhentais](https://count.getloli.com/@demo?theme=booru-qualityhentais)
+![booru-qualityhentais](https://moecounter.mikn.dev/@demo?theme=booru-qualityhentais)
 
 ##### booru-r6gdrawfriends
 
-![booru-r6gdrawfriends](https://count.getloli.com/@demo?theme=booru-r6gdrawfriends)
+![booru-r6gdrawfriends](https://moecounter.mikn.dev/@demo?theme=booru-r6gdrawfriends)
 
 ##### booru-rfck
 
-![booru-rfck](https://count.getloli.com/@demo?theme=booru-rfck)
+![booru-rfck](https://moecounter.mikn.dev/@demo?theme=booru-rfck)
 
 ##### booru-smtg
 
-![booru-smtg](https://count.getloli.com/@demo?theme=booru-smtg)
+![booru-smtg](https://moecounter.mikn.dev/@demo?theme=booru-smtg)
 
 ##### booru-snyde
 
-![booru-snyde](https://count.getloli.com/@demo?theme=booru-snyde)
+![booru-snyde](https://moecounter.mikn.dev/@demo?theme=booru-snyde)
 
 ##### booru-the-collection
 
-![booru-the-collection](https://count.getloli.com/@demo?theme=booru-the-collection)
+![booru-the-collection](https://moecounter.mikn.dev/@demo?theme=booru-the-collection)
 
 ##### booru-touhoulat
 
-![booru-touhoulat](https://count.getloli.com/@demo?theme=booru-touhoulat)
+![booru-touhoulat](https://moecounter.mikn.dev/@demo?theme=booru-touhoulat)
 
 ##### booru-townofgravityfalls
 
-![booru-townofgravityfalls](https://count.getloli.com/@demo?theme=booru-townofgravityfalls)
+![booru-townofgravityfalls](https://moecounter.mikn.dev/@demo?theme=booru-townofgravityfalls)
 
 ##### booru-twifanartsfw
 
-![booru-twifanartsfw](https://count.getloli.com/@demo?theme=booru-twifanartsfw)
+![booru-twifanartsfw](https://moecounter.mikn.dev/@demo?theme=booru-twifanartsfw)
 
 ##### booru-ve
 
-![booru-ve](https://count.getloli.com/@demo?theme=booru-ve)
+![booru-ve](https://moecounter.mikn.dev/@demo?theme=booru-ve)
 
 ##### booru-vivi
 
-![booru-vivi](https://count.getloli.com/@demo?theme=booru-vivi)
+![booru-vivi](https://moecounter.mikn.dev/@demo?theme=booru-vivi)
 
 ##### booru-vp
 
-![booru-vp](https://count.getloli.com/@demo?theme=booru-vp)
+![booru-vp](https://moecounter.mikn.dev/@demo?theme=booru-vp)
 
 ##### booru-yuyuyui
 
-![booru-yuyuyui](https://count.getloli.com/@demo?theme=booru-yuyuyui)
+![booru-yuyuyui](https://moecounter.mikn.dev/@demo?theme=booru-yuyuyui)
 
 ##### capoo-1
 
-![capoo-1](https://count.getloli.com/@demo?theme=capoo-1)
+![capoo-1](https://moecounter.mikn.dev/@demo?theme=capoo-1)
 
 ##### capoo-2
 
-![capoo-2](https://count.getloli.com/@demo?theme=capoo-2)
+![capoo-2](https://moecounter.mikn.dev/@demo?theme=capoo-2)
 
 ##### e621
 
-![e621](https://count.getloli.com/@demo?theme=e621)
+![e621](https://moecounter.mikn.dev/@demo?theme=e621)
 
 ##### food
 
-![food](https://count.getloli.com/@demo?theme=food)
+![food](https://moecounter.mikn.dev/@demo?theme=food)
 
 ##### gelbooru
 
-![gelbooru](https://count.getloli.com/@demo?theme=gelbooru)
+![gelbooru](https://moecounter.mikn.dev/@demo?theme=gelbooru)
 
 ##### green
 
-![green](https://count.getloli.com/@demo?theme=green)
+![green](https://moecounter.mikn.dev/@demo?theme=green)
 
 ##### kasuterura-1
 
-![kasuterura-1](https://count.getloli.com/@demo?theme=kasuterura-1)
+![kasuterura-1](https://moecounter.mikn.dev/@demo?theme=kasuterura-1)
 
 ##### kasuterura-2
 
-![kasuterura-2](https://count.getloli.com/@demo?theme=kasuterura-2)
+![kasuterura-2](https://moecounter.mikn.dev/@demo?theme=kasuterura-2)
 
 ##### kasuterura-3
 
-![kasuterura-3](https://count.getloli.com/@demo?theme=kasuterura-3)
+![kasuterura-3](https://moecounter.mikn.dev/@demo?theme=kasuterura-3)
 
 ##### kasuterura-4
 
-![kasuterura-4](https://count.getloli.com/@demo?theme=kasuterura-4)
+![kasuterura-4](https://moecounter.mikn.dev/@demo?theme=kasuterura-4)
 
 ##### kyun
 
-![kyun](https://count.getloli.com/@demo?theme=kyun)
+![kyun](https://moecounter.mikn.dev/@demo?theme=kyun)
 
 ##### love-and-deepspace
 
-![love-and-deepspace](https://count.getloli.com/@demo?theme=love-and-deepspace)
+![love-and-deepspace](https://moecounter.mikn.dev/@demo?theme=love-and-deepspace)
 
 ##### miku
 
-![miku](https://count.getloli.com/@demo?theme=miku)
+![miku](https://moecounter.mikn.dev/@demo?theme=miku)
 
 ##### minecraft
 
-![minecraft](https://count.getloli.com/@demo?theme=minecraft)
+![minecraft](https://moecounter.mikn.dev/@demo?theme=minecraft)
 
 ##### moebooru
 
-![moebooru](https://count.getloli.com/@demo?theme=moebooru)
+![moebooru](https://moecounter.mikn.dev/@demo?theme=moebooru)
 
 ##### morden-num
 
-![morden-num](https://count.getloli.com/@demo?theme=morden-num)
+![morden-num](https://moecounter.mikn.dev/@demo?theme=morden-num)
 
 ##### nixietube-1
 
-![nixietube-1](https://count.getloli.com/@demo?theme=nixietube-1)
+![nixietube-1](https://moecounter.mikn.dev/@demo?theme=nixietube-1)
 
 ##### nixietube-2
 
-![nixietube-2](https://count.getloli.com/@demo?theme=nixietube-2)
+![nixietube-2](https://moecounter.mikn.dev/@demo?theme=nixietube-2)
 
 ##### normal-1
 
-![normal-1](https://count.getloli.com/@demo?theme=normal-1)
+![normal-1](https://moecounter.mikn.dev/@demo?theme=normal-1)
 
 ##### normal-2
 
-![normal-2](https://count.getloli.com/@demo?theme=normal-2)
+![normal-2](https://moecounter.mikn.dev/@demo?theme=normal-2)
 
 ##### original-new
 
-![original-new](https://count.getloli.com/@demo?theme=original-new)
+![original-new](https://moecounter.mikn.dev/@demo?theme=original-new)
 
 ##### original-old
 
-![original-old](https://count.getloli.com/@demo?theme=original-old)
+![original-old](https://moecounter.mikn.dev/@demo?theme=original-old)
 
 ##### rule34
 
-![rule34](https://count.getloli.com/@demo?theme=rule34)
+![rule34](https://moecounter.mikn.dev/@demo?theme=rule34)
 
 ##### shimmie2
 
-![shimmie2](https://count.getloli.com/@demo?theme=shimmie2)
+![shimmie2](https://moecounter.mikn.dev/@demo?theme=shimmie2)
 
 ##### sketch-1
 
-![sketch-1](https://count.getloli.com/@demo?theme=sketch-1)
+![sketch-1](https://moecounter.mikn.dev/@demo?theme=sketch-1)
 
 ##### sketch-2
 
-![sketch-2](https://count.getloli.com/@demo?theme=sketch-2)
+![sketch-2](https://moecounter.mikn.dev/@demo?theme=sketch-2)
 
 ##### yousa-ling
 
-![yousa-ling](https://count.getloli.com/@demo?theme=yousa-ling)
+![yousa-ling](https://moecounter.mikn.dev/@demo?theme=yousa-ling)
 
 </details>
 
 ## Demo
-[https://moecounter.mikn.dev](https://count.getloli.com)
+[https://moecounter.mikn.dev](https://moecounter.mikn.dev)
 
 ## How to use
 
@@ -240,6 +244,7 @@ For information on counter usage and configuration, refer to the [demo website](
 
 ### Deploying
 
+- Clone and run the project
 ```shell
 $ git clone https://github.com/mikndotdev/BetterMoeCounter.git
 $ cd BetterMoeCounter
@@ -247,6 +252,8 @@ $ bun i
 
 $ bun start
 ```
+
+- Or use the prebuilt Docker images available on [GHCR](https://github.com/mikndotdev/BetterMoeCounter/pkgs/container/bettermoecounter)
 
 ### Configuration
 

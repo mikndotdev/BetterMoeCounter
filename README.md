@@ -19,6 +19,10 @@
 
 ### *[Contribute themes is welcome!](https://github.com/mikndotdev/BetterMoeCounter/issues/new?assignees=&labels=theme&projects=&template=contribute-theme.yml&title=%5BTheme%5D%3A+)*
 
+##### habanero
+
+![habanero](https://moecounter.mikn.dev/@demo?theme=habanero)
+
 ##### 3d-num
 
 ![3d-num](https://moecounter.mikn.dev/@demo?theme=3d-num)

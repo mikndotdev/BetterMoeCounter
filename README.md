@@ -1,18 +1,12 @@
+<p align="center">
+ <img src="https://cdn.mikn.dev/branding/mikan-vtube.png" width="100">
+</p>
+
 # *Better Moe Counter!*
 
 <p align="center">
   <a href="https://count.getloli.com" target="_blank">
     <img alt="Moe Counter!" src="https://count.getloli.com/@Moe-counter.github?name=Moe-counter.github&theme=booru-lewd&padding=7&offset=0&align=top&scale=1&pixelated=1&darkmode=auto">
-  </a>
-</p>
-
-<p align="center">
-  <a href="https://hellogithub.com/repository/ed741b376efe46789ce9bb140ac19a52" target="_blank">
-   <picture>
-     <source media="(prefers-color-scheme: dark)" srcset="https://api.hellogithub.com/v1/widgets/recommend.svg?rid=ed741b376efe46789ce9bb140ac19a52&claim_uid=NyJh2Vejq3984f5&theme=dark" />
-     <source media="(prefers-color-scheme: light)" srcset="https://api.hellogithub.com/v1/widgets/recommend.svg?rid=ed741b376efe46789ce9bb140ac19a52&claim_uid=NyJh2Vejq3984f5&theme=neutral" />
-     <img src="https://api.hellogithub.com/v1/widgets/recommend.svg?rid=ed741b376efe46789ce9bb140ac19a52&claim_uid=NyJh2Vejq3984f5&theme=neutral" alt="Featured｜HelloGitHub" style="width: 250px; height: 54px;" width="250" height="54" />
-   </picture>
   </a>
 </p>
 

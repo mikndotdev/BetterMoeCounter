@@ -28,6 +28,10 @@ jobs:
           username: ${{ github.repository_owner }}
           password: ${{ secrets.GITHUB_TOKEN }}
 
+      - name: Prepare repository name
+        id: repo
+        run: echo "name=$(echo ${{ github.repository }} | tr '[:upper:]' '[:lower:]')" >> $GITHUB_OUTPUT
+
       - name: Build and push (AMD64)
         uses: docker/build-push-action@v6
         with:
@@ -35,8 +39,8 @@ jobs:
           context: .
           push: true
           tags: |
-            ghcr.io/${{ github.repository }}:latest-amd
-            ghcr.io/${{ github.repository }}:${{ github.sha }}-amd
+            ghcr.io/${{ steps.repo.outputs.name }}:latest-amd
+            ghcr.io/${{ steps.repo.outputs.name }}:${{ github.sha }}-amd
 
   build-arm64:
     runs-on: runs-on=${{ github.run_id }}/runner=4cpu-linux-arm64
@@ -55,6 +59,10 @@ jobs:
           username: ${{ github.repository_owner }}
           password: ${{ secrets.GITHUB_TOKEN }}
 
+      - name: Prepare repository name
+        id: repo
+        run: echo "name=$(echo ${{ github.repository }} | tr '[:upper:]' '[:lower:]')" >> $GITHUB_OUTPUT
+
       - name: Build and push (ARM64)
         uses: docker/build-push-action@v6
         with:
@@ -62,8 +70,8 @@ jobs:
           context: .
           push: true
           tags: |
-            ghcr.io/${{ github.repository }}:latest-arm
-            ghcr.io/${{ github.repository }}:${{ github.sha }}-arm
+            ghcr.io/${{ steps.repo.outputs.name }}:latest-arm
+            ghcr.io/${{ steps.repo.outputs.name }}:${{ github.sha }}-arm
 
   build-merge:
     runs-on: ubuntu-latest
@@ -83,8 +91,12 @@ jobs:
           username: ${{ github.repository_owner }}
           password: ${{ secrets.GITHUB_TOKEN }}
 
+      - name: Prepare repository name
+        id: repo
+        run: echo "name=$(echo ${{ github.repository }} | tr '[:upper:]' '[:lower:]')" >> $GITHUB_OUTPUT
+
       - name: Merge
         run: |
-          docker buildx imagetools create -t ghcr.io/${{ github.repository }}:latest \
-              ghcr.io/${{ github.repository }}:latest-amd \
-              ghcr.io/${{ github.repository }}:latest-arm
+          docker buildx imagetools create -t ghcr.io/${{ steps.repo.outputs.name }}:latest \
+              ghcr.io/${{ steps.repo.outputs.name }}:latest-amd \
+              ghcr.io/${{ steps.repo.outputs.name }}:latest-arm
